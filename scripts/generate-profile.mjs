@@ -157,8 +157,7 @@ function desktopSvg() {
     <text x="721" y="215"><tspan fill="${C.purple}">based</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"Noida, India"</tspan></text>
     <text x="721" y="250"><tspan fill="${C.purple}">builds</tspan><tspan fill="${C.muted}"> = [</tspan><tspan fill="${C.amber}">"web", "mobile"</tspan><tspan fill="${C.muted}">]</tspan></text>
     <text x="721" y="285"><tspan fill="${C.purple}">timezone</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"UTC+05:30"</tspan></text>
-    <text x="721" y="320"><tspan fill="${C.purple}">status</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"open to roles"</tspan></text>
-    <text x="721" y="355"><tspan fill="${C.purple}">mode</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"building"</tspan></text>
+    <text x="721" y="320"><tspan fill="${C.purple}">mode</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"building"</tspan></text>
   </g>
 
   ${panel(22, 414, 1056, 370, "toolchain")}
@@ -175,9 +174,9 @@ function desktopSvg() {
   <rect x="1" y="873" width="1098" height="26" rx="0 0 7 7" fill="${C.panel}"/>
   <text class="mono" x="18" y="891" fill="${C.green}" font-size="10">NORMAL</text>
   <text class="mono" x="84" y="891" fill="${C.text}" font-size="10">branch: main</text>
-  <text class="mono" x="190" y="891" fill="${C.text}" font-size="10">open to roles + collaboration</text>
+  <text class="mono" x="190" y="891" fill="${C.text}" font-size="10">building · collaboration</text>
   <text class="mono" x="1080" y="891" text-anchor="end" fill="${C.muted}" font-size="10">one-dark-pro-night-flat · UTF-8</text>
-  <rect class="cursor" x="397" y="881" width="7" height="12" fill="${C.blue}"/>
+  <rect class="cursor" x="345" y="881" width="7" height="12" fill="${C.blue}"/>
 </svg>`;
 }
 
@@ -217,7 +216,7 @@ function mobileSvg() {
     <text x="42" y="562"><tspan fill="${C.purple}">based</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"Noida, India"</tspan></text>
     <text x="42" y="604"><tspan fill="${C.purple}">builds</tspan><tspan fill="${C.muted}"> = [</tspan><tspan fill="${C.amber}">"web", "mobile"</tspan><tspan fill="${C.muted}">]</tspan></text>
     <text x="42" y="646"><tspan fill="${C.purple}">timezone</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"UTC+05:30"</tspan></text>
-    <text x="42" y="688"><tspan fill="${C.purple}">status</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"open to roles"</tspan></text>
+    <text x="42" y="688"><tspan fill="${C.purple}">mode</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"building"</tspan></text>
   </g>
 
   ${panel(18, 751, 684, 721, "toolchain")}
@@ -232,9 +231,9 @@ function mobileSvg() {
 
   <rect x="1" y="1580" width="718" height="39" rx="0 0 7 7" fill="${C.panel}"/>
   <text class="mono" x="18" y="1605" fill="${C.green}" font-size="11">NORMAL</text>
-  <text class="mono" x="92" y="1605" fill="${C.text}" font-size="11">open to roles</text>
+  <text class="mono" x="92" y="1605" fill="${C.text}" font-size="11">building</text>
   <text class="mono" x="702" y="1605" text-anchor="end" fill="${C.muted}" font-size="11">UTF-8</text>
-  <rect class="cursor" x="188" y="1593" width="7" height="14" fill="${C.blue}"/>
+  <rect class="cursor" x="151" y="1593" width="7" height="14" fill="${C.blue}"/>
 </svg>`;
 }
 
