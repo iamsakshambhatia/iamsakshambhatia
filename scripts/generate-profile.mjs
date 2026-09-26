@@ -202,8 +202,8 @@ function mobileSvg() {
   ${titleBar(720)}${tabs(720, 91)}
 
   ${panel(18, 101, 684, 310, "about", true)}
-  <g class="mono" fill="${C.white}" font-size="17" font-weight="700">
-    ${ascii.map((line, index) => `<text x="39" y="${147 + index * 25}" xml:space="preserve">${line}</text>`).join("")}
+  <g class="mono" fill="${C.white}" font-size="26" font-weight="700">
+    ${ascii.map((line, index) => `<text x="39" y="${147 + index * 29}" xml:space="preserve">${line}</text>`).join("")}
   </g>
   <text class="mono" x="42" y="294" fill="${C.amber}" font-size="13" letter-spacing="5">B H A T I A</text>
   <text class="mono" x="40" y="337" fill="${C.blue}" font-size="18">full-stack engineer</text>

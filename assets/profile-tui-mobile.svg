@@ -189,8 +189,8 @@
   <rect x="18" y="101" width="684" height="310" rx="5" fill="#16191d" stroke="#61afef"/>
     <rect x="32" y="94" width="72" height="15" fill="#16191d"/>
     <text class="mono pane-label" x="41" y="104" fill="#61afef">about</text>
-  <g class="mono" fill="#d7dae0" font-size="17" font-weight="700">
-    <text x="39" y="147" xml:space="preserve">████   ██   █  █  ████  █  █   ██   █   █</text><text x="39" y="172" xml:space="preserve">█     █  █  █ █   █     █  █  █  █  ██ ██</text><text x="39" y="197" xml:space="preserve">████  ████  ██    ████  ████  ████  █ █ █</text><text x="39" y="222" xml:space="preserve">   █  █  █  █ █      █  █  █  █  █  █   █</text><text x="39" y="247" xml:space="preserve">████  █  █  █  █  ████  █  █  █  █  █   █</text>
+  <g class="mono" fill="#d7dae0" font-size="26" font-weight="700">
+    <text x="39" y="147" xml:space="preserve">████   ██   █  █  ████  █  █   ██   █   █</text><text x="39" y="176" xml:space="preserve">█     █  █  █ █   █     █  █  █  █  ██ ██</text><text x="39" y="205" xml:space="preserve">████  ████  ██    ████  ████  ████  █ █ █</text><text x="39" y="234" xml:space="preserve">   █  █  █  █ █      █  █  █  █  █  █   █</text><text x="39" y="263" xml:space="preserve">████  █  █  █  █  ████  █  █  █  █  █   █</text>
   </g>
   <text class="mono" x="42" y="294" fill="#e5c07b" font-size="13" letter-spacing="5">B H A T I A</text>
   <text class="mono" x="40" y="337" fill="#61afef" font-size="18">full-stack engineer</text>
