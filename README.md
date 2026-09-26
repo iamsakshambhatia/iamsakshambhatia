@@ -18,7 +18,8 @@
 <!-- CONNECT -->
 <p align="center">
   <code>connect:</code>
-  <br />
+</p>
+<p align="center">
   <a href="mailto:iamsakshambhatia@gmail.com" title="Email"><img src="assets/icons/email.svg" width="22" height="22" alt="Email" /></a>
   &nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/iamsakshambhatia" title="LinkedIn"><img src="assets/icons/linkedin.svg" width="22" height="22" alt="LinkedIn" /></a>
