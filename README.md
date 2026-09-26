@@ -18,14 +18,14 @@
 <!-- CONNECT -->
 <p align="center">
   <code>connect:</code>&nbsp;
-  <a href="mailto:iamsakshambhatia@gmail.com"><img src="assets/icons/email.svg" width="17" height="17" alt="" /> email</a>
-  &ensp;·&ensp;
-  <a href="https://www.linkedin.com/in/iamsakshambhatia"><img src="assets/icons/linkedin.svg" width="17" height="17" alt="" /> linkedin</a>
-  &ensp;·&ensp;
-  <a href="https://github.com/iamsakshambhatia?tab=repositories"><img src="assets/icons/github.svg" width="17" height="17" alt="" /> github</a>
-  &ensp;·&ensp;
-  <a href="https://www.chess.com/member/bhatiasaksham"><img src="assets/icons/chess-dot-com.svg" width="17" height="17" alt="" /> chess.com</a>
-  &ensp;·&ensp;
-  <a href="https://lichess.org/@/sakshambhatia"><img src="assets/icons/lichess.svg" width="17" height="17" alt="" /> lichess</a>
+  <a href="mailto:iamsakshambhatia@gmail.com" title="Email"><img src="assets/icons/email.svg" width="22" height="22" alt="Email" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/iamsakshambhatia" title="LinkedIn"><img src="assets/icons/linkedin.svg" width="22" height="22" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/iamsakshambhatia?tab=repositories" title="GitHub repositories"><img src="assets/icons/github.svg" width="22" height="22" alt="GitHub" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.chess.com/member/bhatiasaksham" title="Chess.com"><img src="assets/icons/chess-dot-com.svg" width="22" height="22" alt="Chess.com" /></a>
+  &nbsp;&nbsp;
+  <a href="https://lichess.org/@/sakshambhatia" title="Lichess"><img src="assets/icons/lichess.svg" width="22" height="22" alt="Lichess" /></a>
 </p>
 <!-- /CONNECT -->
