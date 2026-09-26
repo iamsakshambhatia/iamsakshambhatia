@@ -137,7 +137,7 @@ function desktopSvg() {
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="900" viewBox="0 0 1100 900" role="img" aria-labelledby="title description">
   <title id="title">Saksham Bhatia — terminal profile</title>
-  <desc id="description">A One Dark Pro Night Flat terminal interface introducing Saksham, his technology experience, availability, and chess profiles.</desc>
+  <desc id="description">A One Dark Pro Night Flat terminal interface introducing Saksham, his technology experience, and chess profiles.</desc>
   ${defs(false)}
   <rect x="1" y="1" width="1098" height="898" rx="8" fill="${C.bg}" stroke="${C.border}" stroke-width="2"/>
   ${titleBar(1100)}${tabs(1100, 91)}
@@ -184,21 +184,21 @@ function mobileSvg() {
   const dailyIcons = daily.items.map((item, index) => {
     const row = Math.floor(index / 3);
     const col = index % 3;
-    return icon(item, 122 + col * 211, 828 + row * 76, 32, "daily", 865 + row * 76);
+    return icon(item, 122 + col * 211, 708 + row * 76, 32, "daily", 745 + row * 76);
   }).join("");
   const builtIcons = built.items.map((item, index) => {
-    const row = Math.floor(index / 4);
-    const col = index % 4;
-    const itemsInRow = Math.min(4, built.items.length - row * 4);
-    const startX = itemsInRow === 4 ? 85 : 360 - ((itemsInRow - 1) * 173) / 2;
-    return icon(item, startX + col * 173, 1046 + row * 68, 24, "built", 1077 + row * 68);
+    const row = Math.floor(index / 5);
+    const col = index % 5;
+    const itemsInRow = Math.min(5, built.items.length - row * 5);
+    const startX = 360 - ((itemsInRow - 1) * 132) / 2;
+    return icon(item, startX + col * 132, 910 + row * 60, 24, "built", 938 + row * 60);
   }).join("");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1620" viewBox="0 0 720 1620" role="img" aria-labelledby="title description">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1350" viewBox="0 0 720 1350" role="img" aria-labelledby="title description">
   <title id="title">Saksham Bhatia — terminal profile</title>
-  <desc id="description">A responsive One Dark Pro Night Flat terminal interface introducing Saksham, his technology experience, availability, and chess profiles.</desc>
+  <desc id="description">A responsive One Dark Pro Night Flat terminal interface introducing Saksham, his technology experience, and chess profiles.</desc>
   ${defs(true)}
-  <rect x="1" y="1" width="718" height="1618" rx="8" fill="${C.bg}" stroke="${C.border}" stroke-width="2"/>
+  <rect x="1" y="1" width="718" height="1348" rx="8" fill="${C.bg}" stroke="${C.border}" stroke-width="2"/>
   ${titleBar(720)}${tabs(720, 91)}
 
   ${panel(18, 101, 684, 310, "about", true)}
@@ -209,31 +209,31 @@ function mobileSvg() {
   <text class="mono" x="40" y="337" fill="${C.blue}" font-size="18">full-stack engineer</text>
   <text class="mono body" x="40" y="374" fill="${C.text}">shipping web and mobile products end to end</text>
 
-  ${panel(18, 431, 684, 300, "profile.toml")}
+  ${panel(18, 431, 684, 180, "profile.toml")}
   <g class="mono body">
     <text x="42" y="478"><tspan fill="${C.purple}">name</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"Saksham Bhatia"</tspan></text>
-    <text x="42" y="520"><tspan fill="${C.purple}">role</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"Full-stack engineer"</tspan></text>
-    <text x="42" y="562"><tspan fill="${C.purple}">based</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"Noida, India"</tspan></text>
-    <text x="42" y="604"><tspan fill="${C.purple}">builds</tspan><tspan fill="${C.muted}"> = [</tspan><tspan fill="${C.amber}">"web", "mobile"</tspan><tspan fill="${C.muted}">]</tspan></text>
-    <text x="42" y="646"><tspan fill="${C.purple}">timezone</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"UTC+05:30"</tspan></text>
-    <text x="42" y="688"><tspan fill="${C.purple}">mode</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"building"</tspan></text>
+    <text x="370" y="478"><tspan fill="${C.purple}">role</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"Full-stack engineer"</tspan></text>
+    <text x="42" y="520"><tspan fill="${C.purple}">based</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"Noida, India"</tspan></text>
+    <text x="370" y="520"><tspan fill="${C.purple}">builds</tspan><tspan fill="${C.muted}"> = [</tspan><tspan fill="${C.amber}">"web", "mobile"</tspan><tspan fill="${C.muted}">]</tspan></text>
+    <text x="42" y="562"><tspan fill="${C.purple}">timezone</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"UTC+05:30"</tspan></text>
+    <text x="370" y="562"><tspan fill="${C.purple}">mode</tspan><tspan fill="${C.muted}"> = </tspan><tspan fill="${C.green}">"building"</tspan></text>
   </g>
 
-  ${panel(18, 751, 684, 721, "toolchain")}
-  <text class="mono small" x="40" y="791" fill="${C.green}">● ${escapeXml(daily.label)} / ${escapeXml(daily.note)}</text>
+  ${panel(18, 631, 684, 570, "toolchain")}
+  <text class="mono small" x="40" y="671" fill="${C.green}">● ${escapeXml(daily.label)} / ${escapeXml(daily.note)}</text>
   ${dailyIcons}
-  <line x1="40" y1="983" x2="680" y2="983" stroke="${C.border}"/>
-  <text class="mono small" x="40" y="1018" fill="${C.cyan}">• ${escapeXml(built.label)} / ${escapeXml(built.note)}</text>
+  <line x1="40" y1="843" x2="680" y2="843" stroke="${C.border}"/>
+  <text class="mono small" x="40" y="878" fill="${C.cyan}">• ${escapeXml(built.label)} / ${escapeXml(built.note)}</text>
   ${builtIcons}
 
-  ${panel(18, 1492, 684, 70, "/dev/chess")}
-  <text class="mono body" x="42" y="1534" fill="${C.purple}">♞</text><text class="mono body" x="70" y="1534" fill="${C.text}">find a plan, improve the position, then hang a piece anyway</text>
+  ${panel(18, 1221, 684, 70, "/dev/chess")}
+  <text class="mono body" x="42" y="1263" fill="${C.purple}">♞</text><text class="mono body" x="70" y="1263" fill="${C.text}">find a plan, improve the position, then hang a piece anyway</text>
 
-  <rect x="1" y="1580" width="718" height="39" rx="0 0 7 7" fill="${C.panel}"/>
-  <text class="mono" x="18" y="1605" fill="${C.green}" font-size="11">NORMAL</text>
-  <text class="mono" x="92" y="1605" fill="${C.text}" font-size="11">building</text>
-  <text class="mono" x="702" y="1605" text-anchor="end" fill="${C.muted}" font-size="11">UTF-8</text>
-  <rect class="cursor" x="151" y="1593" width="7" height="14" fill="${C.blue}"/>
+  <rect x="1" y="1309" width="718" height="40" rx="0 0 7 7" fill="${C.panel}"/>
+  <text class="mono" x="18" y="1334" fill="${C.green}" font-size="11">NORMAL</text>
+  <text class="mono" x="92" y="1334" fill="${C.text}" font-size="11">building</text>
+  <text class="mono" x="702" y="1334" text-anchor="end" fill="${C.muted}" font-size="11">UTF-8</text>
+  <rect class="cursor" x="151" y="1322" width="7" height="14" fill="${C.blue}"/>
 </svg>`;
 }
 
