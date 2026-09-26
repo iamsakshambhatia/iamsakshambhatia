@@ -1,0 +1,46 @@
+{
+  "tiers": [
+    {
+      "label": "USE OFTEN",
+      "note": "the default toolkit",
+      "color": "#58A6FF",
+      "items": [
+        { "slug": "typescript", "label": "TypeScript", "color": "#3178C6" },
+        { "slug": "javascript", "label": "JavaScript", "color": "#F7DF1E" },
+        { "slug": "python", "label": "Python", "color": "#3776AB" },
+        { "slug": "react", "label": "React", "color": "#61DAFB" },
+        { "slug": "nextdotjs", "label": "Next.js", "color": "#FFFFFF" },
+        { "slug": "git", "label": "Git", "color": "#F05032" }
+      ]
+    },
+    {
+      "label": "BUILT WITH",
+      "note": "used in real projects",
+      "color": "#D2A8FF",
+      "items": [
+        { "slug": "html5", "label": "HTML", "color": "#E34F26" },
+        { "slug": "css", "label": "CSS", "color": "#663399" },
+        { "slug": "tailwindcss", "label": "Tailwind", "color": "#06B6D4" },
+        { "slug": "fastapi", "label": "FastAPI", "color": "#009688" },
+        { "slug": "nodedotjs", "label": "Node.js", "color": "#5FA04E" },
+        { "slug": "express", "label": "Express", "color": "#FFFFFF" },
+        { "slug": "reactnative", "label": "React Native", "color": "#61DAFB" },
+        { "slug": "expo", "label": "Expo", "color": "#FFFFFF" },
+        { "slug": "vite", "label": "Vite", "color": "#646CFF" },
+        { "slug": "postgresql", "label": "Postgres", "color": "#4169E1" },
+        { "slug": "sqlite", "label": "SQLite", "color": "#5BA9D6" },
+        { "slug": "redis", "label": "Redis", "color": "#FF4438" },
+        { "slug": "firebase", "label": "Firebase", "color": "#FFCA28" },
+        { "slug": "convex", "label": "Convex", "color": "#EE342F" },
+        { "slug": "clerk", "label": "Clerk", "color": "#6C47FF" },
+        { "slug": "vitest", "label": "Vitest", "color": "#6E9F18" },
+        { "slug": "pytest", "label": "Pytest", "color": "#0A9EDC" },
+        { "slug": "docker", "label": "Docker", "color": "#2496ED" },
+        { "slug": "aws", "label": "AWS", "color": "#FF9900" },
+        { "slug": "githubactions", "label": "CI / CD", "color": "#2088FF" },
+        { "slug": "openjdk", "label": "Java", "color": "#E76F00" },
+        { "slug": "androidstudio", "label": "Android", "color": "#3DDC84" }
+      ]
+    }
+  ]
+}

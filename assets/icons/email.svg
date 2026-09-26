@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="email">
+  <defs>
+    <filter id="contact-glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#e06c75" flood-opacity=".45" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="halo"/>
+      <feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .muted{opacity:.42;animation:mute-out 1.6s ease 1s forwards}.color{opacity:0;animation:color-in 1.6s ease 1s forwards}.glow{opacity:0;animation:glow-in 1.6s ease 1s forwards}@keyframes mute-out{from{opacity:.42}to{opacity:0}}@keyframes color-in{from{opacity:0}to{opacity:.88}}@keyframes glow-in{0%,35%,100%{opacity:0}72%{opacity:.24}}@media(prefers-reduced-motion:reduce){.muted,.glow{animation:none;opacity:0}.color{animation:none;opacity:.82}}
+    </style>
+  </defs>
+  <path class="muted" fill="#abb2bf" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+  <path class="color" fill="#e06c75" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+  <g class="glow" filter="url(#contact-glow)"><path fill="#e06c75" d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></g>
+</svg>
